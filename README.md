@@ -1,7 +1,11 @@
+
 # AWS Serverless Application
 
 ## Overview
 This project demonstrates a serverless application using AWS services. The application consists of an API Gateway, AWS Lambda functions, and DynamoDB for data storage.
+
+## Created By
+**Venkatesh Pattem** - DevOps Engineer with a passion for serverless architecture and cloud computing.
 
 ## Prerequisites
 - AWS CLI installed and configured
@@ -26,6 +30,13 @@ cd aws-serverless-app
 Copy the example environment file and update it with your configuration.
 ```sh
 cp .env.example .env
+```
+Open the `.env` file and update it with your AWS credentials and other necessary information:
+```plaintext
+AWS_ACCESS_KEY_ID=your_access_key_id
+AWS_SECRET_ACCESS_KEY=your_secret_access_key
+TABLE_NAME=SampleDynamoDBTable
+AWS_REGION=us-east-1
 ```
 
 ### 3. Install Dependencies
